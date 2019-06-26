@@ -2,8 +2,8 @@
 // Created by Qiu Dongmin on 2019-06-25.
 //
 
-#include "17letterCombinations.h"
-using namespace p97;
+#include "letterCombinations17.h"
+using namespace letterCombinations17;
 
 vector<string> Solution::letterCombinations(string digits) {
     map<char, string> table = {{'2', "abc"}, {'3', "def"}, {'4', "ghi"}, {'5', "jkl"},
@@ -31,4 +31,10 @@ void Solution::dfs(map<char, string>& table, vector<string>& res, string& digits
 
 void Solution::run() {
     this->letterCombinations("23");
+}
+
+int main() {
+    Solution s;
+    s.run();
+    return 0;
 }

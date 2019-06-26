@@ -2,15 +2,15 @@
 // Created by Qiu Dongmin on 2019-06-25.
 //
 
-#ifndef CPP_17LETTERCOMBINATIONS_H
-#define CPP_17LETTERCOMBINATIONS_H
+#ifndef CPP_LETTERCOMBINATIONS17_H
+#define CPP_LETTERCOMBINATIONS17_H
 
-#include <string>
 #include <vector>
+#include <string>
 #include <map>
 using namespace std;
 
-namespace p17 {
+namespace letterCombinations17 {
     class Solution {
     public:
         vector<string> letterCombinations(string digits);
@@ -19,4 +19,4 @@ namespace p17 {
     };
 }
 
-#endif //CPP_17LETTERCOMBINATIONS_H
+#endif //CPP_LETTERCOMBINATIONS17_H
