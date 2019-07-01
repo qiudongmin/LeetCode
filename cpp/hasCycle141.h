@@ -6,13 +6,10 @@
 #define CPP_HASCYCLE141_H
 
 #include <iostream>
+
 using namespace std;
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
+#include "myleetcode.h"
 
 namespace hasCycle141 {
     class Solution {
