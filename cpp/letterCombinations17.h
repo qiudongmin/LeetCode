@@ -5,6 +5,7 @@
 #ifndef CPP_LETTERCOMBINATIONS17_H
 #define CPP_LETTERCOMBINATIONS17_H
 
+#include <iostream>
 #include <vector>
 #include <string>
 #include <map>

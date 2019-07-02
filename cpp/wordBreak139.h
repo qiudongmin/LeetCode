@@ -5,6 +5,7 @@
 #ifndef CPP_WORDBREAK139_H
 #define CPP_WORDBREAK139_H
 
+#include <iostream>
 #include <vector>
 #include <string>
 

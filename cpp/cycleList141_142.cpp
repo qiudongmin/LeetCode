@@ -6,8 +6,9 @@
 
 using namespace cycleList141_142;
 
-bool Solution::hasCycle(ListNode *head) {
-    ListNode *fast, *slow;
+bool Solution::hasCycle(ListNode* head) {
+    ListNode* fast;
+    ListNode* slow;
     fast = head;
     slow = head;
     while (fast != nullptr && fast->next != nullptr) {
@@ -20,8 +21,9 @@ bool Solution::hasCycle(ListNode *head) {
     return false;
 }
 
-ListNode *Solution::detectCycle(ListNode *head) {
-    ListNode *fast, *slow;
+ListNode* Solution::detectCycle(ListNode* head) {
+    ListNode* fast;
+    ListNode* slow;
     fast = head;
     slow = head;
     while (fast != nullptr && fast->next->next != nullptr) {
